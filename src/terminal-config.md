@@ -15,6 +15,8 @@ Current choice is Kitty on OS X because you can get rid of the window borders an
 
 The theme we use with the terminal is [Iceberg](https://cocopon.github.io/iceberg.vim/), a nice plain dark blue theme which is relatively visually appealing.
 
+The font we use is a version of Hack customized for my needs.
+
 ### Shell
 
 For our shell of choice we use Zsh with [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh)
