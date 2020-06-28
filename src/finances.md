@@ -8,3 +8,4 @@
 ## Online Resources
 
 - [Kahn Academy Finance](https://www.khanacademy.org/economics-finance-domain/core-finance)
+- [Card Churning Flowchart](https://kevlarlover.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+v15.html)
