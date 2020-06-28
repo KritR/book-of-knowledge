@@ -10,3 +10,4 @@
 - [Purchases](./interesting-purchases.md)
 - [Events](./events.md)
 - [Reading Sources](./reading-sources.md)
+- [Relationships](./relationships.md)
