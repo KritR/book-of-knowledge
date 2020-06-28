@@ -7,3 +7,4 @@
 - [Digital Volunteering](./digital-volunteering.md)
 - [Chemistry](./chemistry.md)
 - [Purchases](./interesting-purchases.md)
+- [Events](./events.md)
