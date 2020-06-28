@@ -9,3 +9,4 @@
 - [CS Resources](./cs-resources.md)
 - [Purchases](./interesting-purchases.md)
 - [Events](./events.md)
+- [Reading Sources](./reading-sources.md)
