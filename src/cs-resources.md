@@ -6,4 +6,6 @@
 - [How to Read A Paper](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf)
 - [HN Favorite Talks](https://news.ycombinator.com/item?id=16838460)
 - [CS Papers Arxiv](https://arxiv.org)
-
+- Accessibility
+  - [webaim](https://webaim.org)
+  - [A11y](https://a11yproject.com)
