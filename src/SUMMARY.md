@@ -4,4 +4,6 @@
   - [Terminal](./terminal-config.md)
 - [Finance](./finances.md)
 - [Cars](./cars.md)
-- [Digitar Volunteering](./digital-volunteering.md)
+- [Digital Volunteering](./digital-volunteering.md)
+- [Chemistry](./chemistry.md)
+- [Purchases](./interesting-purchases.md)
