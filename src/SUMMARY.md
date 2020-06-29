@@ -8,6 +8,7 @@
 - [Chemistry](./chemistry.md)
 - [CS Resources](./cs-resources.md)
 - [Purchases](./interesting-purchases.md)
+- [Buy It For Life](./buy-for-life.md)
 - [Events](./events.md)
 - [Reading Sources](./reading-sources.md)
 - [Relationships](./relationships.md)
