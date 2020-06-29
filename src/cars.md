@@ -13,8 +13,8 @@ Eventually I'll build this out.
 
 4 Things to Pay Attention
 
-Trade in ( don’t say you have a trade in )
-Price (negotiate on price)
-Down Payment (this is adjustable)
-Monthly Payment (this is where money is made off you)
+- Trade in ( don’t say you have a trade in )
+- Price (negotiate on price)
+- Down Payment (this is adjustable)
+- Monthly Payment (this is where money is made off you)
 
