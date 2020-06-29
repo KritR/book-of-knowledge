@@ -11,3 +11,4 @@
 - [Events](./events.md)
 - [Reading Sources](./reading-sources.md)
 - [Relationships](./relationships.md)
+- [Gifting](./gifting.md)
