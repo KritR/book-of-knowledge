@@ -10,7 +10,8 @@ and yeah I don't know how to use awk :(
 
 So here they are
 
-===============
+---
+
 1901 ls
 1002 vim
 807 cd
@@ -21,7 +22,8 @@ So here they are
 144 docker-compose
 117 docker
 77 taskell
-===============
+
+---
 
 ## Vim (Text Editing)
 
