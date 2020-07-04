@@ -9,3 +9,4 @@
 - Accessibility
   - [webaim](https://webaim.org)
   - [A11y](https://a11yproject.com)
+- [Learning Dvorak](https://learn.dvorak.nl)
