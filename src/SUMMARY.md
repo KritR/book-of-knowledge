@@ -3,6 +3,7 @@
 - [Digital Workspace](./digital-workspace.md)
   - [Terminal](./terminal-config.md)
   - [Terminal Tools](./terminal-tools.md)
+  - [Services and Apps](./services-apps.md)
 - [Finance](./finances.md)
 - [Cars](./cars.md)
 - [Digital Volunteering](./digital-volunteering.md)
