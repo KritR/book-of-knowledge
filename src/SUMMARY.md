@@ -1,5 +1,6 @@
 # Summary
 
+- [Lifestyle](./lifestyle.md)
 - [Digital Workspace](./digital-workspace.md)
   - [Terminal](./terminal-config.md)
   - [Terminal Tools](./terminal-tools.md)
