@@ -13,5 +13,5 @@ This one isn't less so about happiness but more so about being positive and focu
 
 ## Success
 
-“Success is liking yourself, liking what you do, and liking how you do it.”
-― Maya Angelou
+> “Success is liking yourself, liking what you do, and liking how you do it.”
+> ― Maya Angelou

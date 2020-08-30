@@ -44,10 +44,15 @@ Some of you are too cool and use thesaurus. Don't do that, focus on the importan
 The format of most of the things you would list out on a resume is a bullet point format which constrains you a good amount. But always focus on highlighting these things:
 
 - Impact !
+
   Showing that you're valuable can be showing what results your work has had. Like reducing costs for a company by \$10k, or helping acquire more customers.
+
 - Technical skills
+
   Rather than a boring list of your technical skills, which isn't always believable, make sure you mention these things with the activities and experiences you've had.
+
 - Action
+
   All of your resume should be about things you've done. Don't describe yourself. Show who you are via your actions and achievements. It's the common trope in narration as well, "show not tell". And don't ever say I am a leader, it's so much more effective to point out how and when you've lead people.
 
 ## Crafting a Narrative
@@ -68,4 +73,3 @@ As you can see, we break it down with the first sentence talking about my educat
 You're also going to need a 3-5 minute intro. This is for when you're actually talking to a recruiter at a career fair. In this one, sell yourself hard. This is about making an impact. The high level summary isn't enough. Say how you made an impact for people, talk about the skills you have, basically expand more into the parts of your life story you worked really hard at, and can passionately talk about.
 
 Remember, the key is making this a story. You're just getting to meet someone. Show some character, show your passion, you're writing the story that defines who you are in the recruiters eyes.
-

@@ -9,11 +9,11 @@
   - [Resumes & Narratives](./resume-narrative.md)
   - [Finding Employment](./seeking-work.md)
   - [Mentorship](./mentorship.md)
-- CS
+- [Computer Science](./cs.md)
   - [Learning Resources](./cs-resources.md)
   - [Coding Productivity](./code-flow.md)
 - [Inspiration](./inspiration.md)
-  - [Happiness](./happiness)
+  - [Happiness](./happiness.md)
   - [Confidence](./confidence.md)
   - [Productivity](./productivity-hack.md)
 - [Digital Volunteering](./digital-volunteering.md)

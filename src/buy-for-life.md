@@ -1,11 +1,14 @@
 # BUY IT FOR LIFE
 
-What’s worth looking @ on this list:
+So this is based off of reddit.com/r/BuyItForLife. Totally worth checking out if you haven't already.
+These are products that you could purchase once, and have it last for a lifetime.
+Some of these are lies.
+
+Here's what’s worth looking @ on this list:
 
 - Cookingware
-- Furniture ? Maybe
-- Clothes (only if nice shirts / pants / suits)
-- Shoes / Boots (again only if professional)
+- Furniture
+- Shoes / Boots
 - Vacuum
 - Sheets
 - Cables
@@ -13,13 +16,8 @@ What’s worth looking @ on this list:
 
 ## CookingWare
 
-- Le Creuset ( specifically cast iron ) ( probably lasts forever )
-
-## Clothes (debatable)
-
-- LL Bean
-- Eddie Baeur
-- Uniqlo ? ( Boxers & techwear & light shells )
+- Le Creuset
+- Cast Iron in General
 
 ## Furniture
 
@@ -29,15 +27,16 @@ What’s worth looking @ on this list:
 - Natuzi
 - Make your own
 
-## Razor (NO)
+## Razor
 
 Yep you definitely have to replace these.... I’ve heard you can buy a blade sharpener though
 
 ## Socks
 
-- Darn Tough Socks \$10/Pair (if counting lifetime warranty)
-- ^ but not cost effective . Made of merino wool .
-- SOOO Kirkland Merino Wool Socks \$5/Pair . ( for more wintery use ?)
+- Darn Tough Socks \$10/Pair
+- Kirkland Merino Wool Socks \$5/Pair
+
+Darn tough do come with a lifetime warranty.
 
 ## Boxers
 
@@ -46,46 +45,52 @@ Yep you definitely have to replace these.... I’ve heard you can buy a blade sh
 
 ## Slip Ons
 
-- Chacos \$100/pair [maybe worth]
-
-## Shoes:
-
-- ?
+- Chacos
+- Birks
 
 ## Pens
 
-- Pilot Juice Up ( Jet Pens )
+- Pilot Juice Up
 
-## Pencil (% loss rate too high for long purchase)
+These are my favorite. They don't last a lifetime.
+
+## Pencil
 
 - Uni Kuru Toga
+
+There is no winning for this. It's just quality.
 
 ## Earbuds
 
 - Sony MDR510
 
+Probably better to just get airpods at this point.
+
 ## Vaccuum (worth):
 
-- miele (homecare line for industrial grade products)
+- Miele
+
+They have a lot of industrial grade equipment. It's interesting.
 
 ## Sheets:
 
-- linen . nuff said
-- https://www.reddit.com/r/BuyItForLife/comments/b815ij/bed_sheets/
+- [Linen](https://www.reddit.com/r/BuyItForLife/comments/b815ij/bed_sheets/)
 
 ## Cables
 
 - Anker
 
-## Blanket (?)
-
-Personally I like my weighted blanket
+## Blanket
 
 - Faribaut Wool Mill
 
+Personally I like my weighted blanket
+
 ## Toaster
 
-- Dualit (made to be repairable) (NOT WORTH - Buy 10 cheap toasters for the price of one) lol
+- Dualit
+
+You could also buy ten cheap toaster for the price of one of these.
 
 ## Multimeter
 
@@ -93,24 +98,32 @@ Personally I like my weighted blanket
 
 ## Nail Clippers
 
-- Soligen
-- https://www.amazon.com/surgical-stainless-clippers-manicure-GERmanikure/dp/B01MDQGQC1
+- [Soligen](https://www.amazon.com/surgical-stainless-clippers-manicure-GERmanikure/dp/B01MDQGQC1)
+
+I honestly don't know who needs nail clippers made of german steel...
 
 ## Knives
 
-- victorinox / lamson Kitche ???
-- TODO
+- Victorinox
+- lamson Kitchen
+- probably more
 
 ## Pliers:
 
-- Channel Lock ( low usage )
-- Knipex ( good stuff )
+- Channel Lock
+- Knipex
 
 ## Push Mower:
 
-- honda
+- Honda
 
 ## Jackets:
 
-- patagonia
+- Patagonia
 - Arc’teyrx
+
+## Clothes
+
+- LL Bean
+- Eddie Baeur
+- Uniqlo
