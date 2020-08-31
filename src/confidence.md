@@ -1,7 +1,6 @@
 # Confidence
 
-I don't know where I found this excerpt, I'm not sure if it's a compilation of multiple sources or a medium article I once stumbled upon.
-Nonetheless, I had it in my notes and found it worth sharing.
+Found on this medium article: [medium article](https://medium.com/@SergeyIRL/confidence-is-not-something-you-have-to-build-129e747655e9)
 
 > Confidence is not something you have to “build”.
 > This is something you always had, you can only lose it. But before we talk about regaining it — what is confidence for you? Do you have an answer?
