@@ -72,9 +72,10 @@ Here's my simple meditation:
 2. Rest your eyes gently on the floor in front of you.
 3. Simply focus on your breath.
 4. And just count with every inhale.
-5. You will eventually find a thought.
-6. When you realize you're thinking, acknowledge the thought.
-7. Then return your focus to your breath, and start counting from 1 again.
+5. When you reach ten, count back to one, and repeat.
+6. You will eventually find a thought.
+7. When you realize you're thinking, acknowledge the thought.
+8. Then return your focus to your breath, and start counting from 1 again.
 
 Very simple. Enjoy :)
 
