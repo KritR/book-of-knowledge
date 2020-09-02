@@ -2,6 +2,7 @@
 
 - [Lifestyle](./lifestyle.md)
   - [Meditation](./meditation.md)
+  - [Journaling](./journaling.md)
 - [Digital Workspace](./digital-workspace.md)
   - [Terminal](./terminal-config.md)
   - [Terminal Tools](./terminal-tools.md)

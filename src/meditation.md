@@ -16,7 +16,7 @@ My awareness in the moment greatly increased.
 
 Instead of stimulus leading directly to emotions or overthinking, I had a gap in between these things, where I could actually think about how I could deal with what was to come.
 
-> Stimulus / Primary Emotion -> Magical Pause -> Consider how to procede -> secondary emotion / overthinking / or something else of choice :)
+> Stimulus / Primary Emotion -> Magical Pause -> Consider how to proceed -> secondary emotion / overthinking / or something else of your choice :)
 
 This leads to a great simplicity in life. No longer was I distraught by small inconveniences. And the way I looked at every thought and emotion of mine changed. It was no longer this immovable uncontrollable force. It's something that could be analyzed. Understood. Deciphered down to its root cause. And optionally, something I could detach myself from.
 
