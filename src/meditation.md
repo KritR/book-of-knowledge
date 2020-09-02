@@ -48,3 +48,33 @@ And you will be more aware of it.
 
 There is no time frame. There is no way to control how this happens.
 The elements of the practice shall simply become part of life :)
+
+## Getting started meditating
+
+How does one get started with meditation ? It's super simple
+
+All you really need is a comfy place to sit.
+If you're really invested you could get a meditation bench or Zafu/Zabuton combo.
+
+![Image of Meditation Bench](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Meditationsbank.jpg/512px-Meditationsbank.jpg)
+
+But that's a bit extra haha.
+
+So. At this point you have a couple options.
+
+Obviously you could go with a guided meditation. Which is super fun and leads you through the steps.
+And I'm sure there's hundreds of options actually. Google can be your friend.
+I do like the apps [Smiling Mind](https://www.smilingmind.com.au) and [Headspace](https://www.headspace.com).
+
+Here's my simple meditation:
+
+1. Sit upright where comfortable.
+2. Rest your eyes gently on the floor in front of you.
+3. Simply focus on your breath.
+4. And just count with every inhale.
+5. You will eventually find a thought.
+6. When you realize you're thinking, acknowledge the thought.
+7. Then return your focus to your breath, and start counting from 1 again.
+
+Very simple. Enjoy :)
+
