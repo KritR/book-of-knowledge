@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Meditation - Book of Knowledge</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="lifestyle.html"><strong aria-hidden="true">1.</strong> Lifestyle</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="meditation.html" class="active"><strong aria-hidden="true">1.1.</strong> Meditation</a></li><li class="chapter-item expanded "><a href="journaling.html"><strong aria-hidden="true">1.2.</strong> Journaling</a></li></ol></li><li class="chapter-item expanded "><a href="digital-workspace.html"><strong aria-hidden="true">2.</strong> Digital Workspace</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="terminal-config.html"><strong aria-hidden="true">2.1.</strong> Terminal</a></li><li class="chapter-item expanded "><a href="terminal-tools.html"><strong aria-hidden="true">2.2.</strong> Terminal Tools</a></li><li class="chapter-item expanded "><a href="services-apps.html"><strong aria-hidden="true">2.3.</strong> Services and Apps</a></li></ol></li><li class="chapter-item expanded "><a href="career.html"><strong aria-hidden="true">3.</strong> Career</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="resume-narrative.html"><strong aria-hidden="true">3.1.</strong> Resumes &amp; Narratives</a></li><li class="chapter-item expanded "><a href="seeking-work.html"><strong aria-hidden="true">3.2.</strong> Finding Employment</a></li><li class="chapter-item expanded "><a href="mentorship.html"><strong aria-hidden="true">3.3.</strong> Mentorship</a></li></ol></li><li class="chapter-item expanded "><a href="cs.html"><strong aria-hidden="true">4.</strong> Computer Science</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cs-resources.html"><strong aria-hidden="true">4.1.</strong> Learning Resources</a></li><li class="chapter-item expanded "><a href="code-flow.html"><strong aria-hidden="true">4.2.</strong> Coding Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="inspiration.html"><strong aria-hidden="true">5.</strong> Inspiration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="happiness.html"><strong aria-hidden="true">5.1.</strong> Happiness</a></li><li class="chapter-item expanded "><a href="confidence.html"><strong aria-hidden="true">5.2.</strong> Confidence</a></li><li class="chapter-item expanded "><a href="productivity-hack.html"><strong aria-hidden="true">5.3.</strong> Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="digital-volunteering.html"><strong aria-hidden="true">6.</strong> Digital Volunteering</a></li><li class="chapter-item expanded "><a href="gifting.html"><strong aria-hidden="true">7.</strong> Gifting</a></li><li class="chapter-item expanded "><a href="finances.html"><strong aria-hidden="true">8.</strong> Finance</a></li><li class="chapter-item expanded "><a href="cars.html"><strong aria-hidden="true">9.</strong> Cars</a></li><li class="chapter-item expanded "><a href="interesting-purchases.html"><strong aria-hidden="true">10.</strong> Purchases</a></li><li class="chapter-item expanded "><a href="buy-for-life.html"><strong aria-hidden="true">11.</strong> Buy It For Life</a></li><li class="chapter-item expanded "><a href="reading-sources.html"><strong aria-hidden="true">12.</strong> Reading Sources</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">13.</strong> Events</a></li><li class="chapter-item expanded "><a href="relationships.html"><strong aria-hidden="true">14.</strong> Relationships</a></li><li class="chapter-item expanded "><a href="interesting-classes.html"><strong aria-hidden="true">15.</strong> Interesting Classes</a></li><li class="chapter-item expanded "><a href="chemistry.html"><strong aria-hidden="true">16.</strong> Chemistry</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Book of Knowledge</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#meditation" id="meditation">Meditation</a></h1>
+<p>Meditation is an essential part of my lifestyle as it leads to a balance that's hard to gain from other activities.</p>
+<h2><a class="header" href="#why-meditate-" id="why-meditate-">Why meditate ?</a></h2>
+<p>My personal journey to meditation started with some misguided assumptions that meditation would lead me to be more productive, or to some grander truth, or inevitably give me some peace as in no more thoughts. I thought these were all possible end results. An there's always the commonly brought up study about an increase in grey matter.</p>
+<p>Truth be told. None of these things were what I got. At least from what I can understand.</p>
+<p>In fact I occasionally got frustrated because my thoughts were supposed to be going away and that somehow magically over time I was supposed to stop having thoughts. What nonsense haha.</p>
+<p>Here's what I did find though.</p>
+<p>My awareness in the moment greatly increased.</p>
+<p>Instead of stimulus leading directly to emotions or overthinking, I had a gap in between these things, where I could actually think about how I could deal with what was to come.</p>
+<blockquote>
+<p>Stimulus / Primary Emotion -&gt; Magical Pause -&gt; Consider how to proceed -&gt; secondary emotion / overthinking / or something else of your choice :)</p>
+</blockquote>
+<p>This leads to a great simplicity in life. No longer was I distraught by small inconveniences. And the way I looked at every thought and emotion of mine changed. It was no longer this immovable uncontrollable force. It's something that could be analyzed. Understood. Deciphered down to its root cause. And optionally, something I could detach myself from.</p>
+<p>More recently it's freed me from my phone addiction :P</p>
+<h2><a class="header" href="#what-is-meditation-" id="what-is-meditation-">What is meditation ?</a></h2>
+<p>So obviously I talked a lot about the beliefs I had going in. Take a moment to drop everything you know about meditation. Approach it with a little beginners mind :)</p>
+<p>All meditation is. Is seated awareness.</p>
+<p>So you sit.
+And focus on your breath (or maybe something else).
+Eventually you will think of something.
+Then maybe at some point you realize you're thinking.
+Then simply acknowledge the thought.
+And guide yourself back to your breath.
+And then it'll happen over and over haha.
+And this is the practice.</p>
+<p>You're practicing awareness.
+You're not in control of when the thoughts come up.
+You're not in control of when you realize you're thinking.
+But when you have a glimpse of thinking, you can acknowledge your thought and return.</p>
+<p>And eventually this shall become a natural process.
+Your mind will realize it's in the process of thought.
+And you will be more aware of it.</p>
+<p>There is no time frame. There is no way to control how this happens.
+The elements of the practice shall simply become part of life :)</p>
+<h2><a class="header" href="#getting-started-meditating" id="getting-started-meditating">Getting started meditating</a></h2>
+<p>How does one get started with meditation ? It's super simple</p>
+<p>All you really need is a comfy place to sit.
+If you're really invested you could get a meditation bench or Zafu/Zabuton combo.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Meditationsbank.jpg/512px-Meditationsbank.jpg" alt="Image of Meditation Bench" /></p>
+<p>But that's a bit extra haha.</p>
+<p>So. At this point you have a couple options.</p>
+<p>Obviously you could go with a guided meditation. Which is super fun and leads you through the steps.
+And I'm sure there's hundreds of options actually. Google can be your friend.
+I do like the apps <a href="https://www.smilingmind.com.au">Smiling Mind</a> and <a href="https://www.headspace.com">Headspace</a>.</p>
+<p>Here's my simple meditation:</p>
+<ol>
+<li>Sit upright where comfortable.</li>
+<li>Rest your eyes gently on the floor in front of you.</li>
+<li>Simply focus on your breath.</li>
+<li>And just count with every inhale.</li>
+<li>When you reach ten, count back to one, and repeat.</li>
+<li>You will eventually find a thought.</li>
+<li>When you realize you're thinking, acknowledge the thought.</li>
+<li>Then return your focus to your breath, and start counting from 1 again.</li>
+</ol>
+<p>Very simple. Enjoy :)</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="lifestyle.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="journaling.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="lifestyle.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="journaling.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

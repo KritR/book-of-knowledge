@@ -1,0 +1,1074 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Book of Knowledge</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        
+        <link rel="stylesheet" href="css/print.css" media="print">
+        
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="lifestyle.html"><strong aria-hidden="true">1.</strong> Lifestyle</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="meditation.html"><strong aria-hidden="true">1.1.</strong> Meditation</a></li><li class="chapter-item expanded "><a href="journaling.html"><strong aria-hidden="true">1.2.</strong> Journaling</a></li></ol></li><li class="chapter-item expanded "><a href="digital-workspace.html"><strong aria-hidden="true">2.</strong> Digital Workspace</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="terminal-config.html"><strong aria-hidden="true">2.1.</strong> Terminal</a></li><li class="chapter-item expanded "><a href="terminal-tools.html"><strong aria-hidden="true">2.2.</strong> Terminal Tools</a></li><li class="chapter-item expanded "><a href="services-apps.html"><strong aria-hidden="true">2.3.</strong> Services and Apps</a></li></ol></li><li class="chapter-item expanded "><a href="career.html"><strong aria-hidden="true">3.</strong> Career</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="resume-narrative.html"><strong aria-hidden="true">3.1.</strong> Resumes &amp; Narratives</a></li><li class="chapter-item expanded "><a href="seeking-work.html"><strong aria-hidden="true">3.2.</strong> Finding Employment</a></li><li class="chapter-item expanded "><a href="mentorship.html"><strong aria-hidden="true">3.3.</strong> Mentorship</a></li></ol></li><li class="chapter-item expanded "><a href="cs.html"><strong aria-hidden="true">4.</strong> Computer Science</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cs-resources.html"><strong aria-hidden="true">4.1.</strong> Learning Resources</a></li><li class="chapter-item expanded "><a href="code-flow.html"><strong aria-hidden="true">4.2.</strong> Coding Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="inspiration.html"><strong aria-hidden="true">5.</strong> Inspiration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="happiness.html"><strong aria-hidden="true">5.1.</strong> Happiness</a></li><li class="chapter-item expanded "><a href="confidence.html"><strong aria-hidden="true">5.2.</strong> Confidence</a></li><li class="chapter-item expanded "><a href="productivity-hack.html"><strong aria-hidden="true">5.3.</strong> Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="digital-volunteering.html"><strong aria-hidden="true">6.</strong> Digital Volunteering</a></li><li class="chapter-item expanded "><a href="gifting.html"><strong aria-hidden="true">7.</strong> Gifting</a></li><li class="chapter-item expanded "><a href="finances.html"><strong aria-hidden="true">8.</strong> Finance</a></li><li class="chapter-item expanded "><a href="cars.html"><strong aria-hidden="true">9.</strong> Cars</a></li><li class="chapter-item expanded "><a href="interesting-purchases.html"><strong aria-hidden="true">10.</strong> Purchases</a></li><li class="chapter-item expanded "><a href="buy-for-life.html"><strong aria-hidden="true">11.</strong> Buy It For Life</a></li><li class="chapter-item expanded "><a href="reading-sources.html"><strong aria-hidden="true">12.</strong> Reading Sources</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">13.</strong> Events</a></li><li class="chapter-item expanded "><a href="relationships.html"><strong aria-hidden="true">14.</strong> Relationships</a></li><li class="chapter-item expanded "><a href="interesting-classes.html"><strong aria-hidden="true">15.</strong> Interesting Classes</a></li><li class="chapter-item expanded "><a href="chemistry.html"><strong aria-hidden="true">16.</strong> Chemistry</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Book of Knowledge</h1>
+
+                    <div class="right-buttons">
+                        
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#lifestyle" id="lifestyle">Lifestyle</a></h1>
+<p>While going through life what I've decided is this.
+Regardless of the situation I'm in, or what I'm prioritizing. Or who I am. Life is always going to be about finding some sort of a balance between things. Recently, I've found the following things to be most important for me to continue doing, in order to maintain balance.</p>
+<ul>
+<li>Sleep Well</li>
+<li>Exercise</li>
+<li>Meditate</li>
+<li>Do Yoga</li>
+<li>Eating Well</li>
+<li>Self Check In / Journal</li>
+<li>Have Meaningful Work</li>
+<li>Organizing thoughts / things around me
+<ul>
+<li>Keeping a Todo List</li>
+<li>Adding things to my calendar</li>
+</ul>
+</li>
+</ul>
+<p>Keeping these things going will allow me to wake up the next morning, feeling like I can tackle whatever is coming ahead of me. Even if everything gets overboard, stress wise, work wise, relationship wise. I know that at the end of the day, if I maintain these things, with time, my life should go back to normal and I will be healthily functioning.</p>
+<h1><a class="header" href="#meditation" id="meditation">Meditation</a></h1>
+<p>Meditation is an essential part of my lifestyle as it leads to a balance that's hard to gain from other activities.</p>
+<h2><a class="header" href="#why-meditate-" id="why-meditate-">Why meditate ?</a></h2>
+<p>My personal journey to meditation started with some misguided assumptions that meditation would lead me to be more productive, or to some grander truth, or inevitably give me some peace as in no more thoughts. I thought these were all possible end results. An there's always the commonly brought up study about an increase in grey matter.</p>
+<p>Truth be told. None of these things were what I got. At least from what I can understand.</p>
+<p>In fact I occasionally got frustrated because my thoughts were supposed to be going away and that somehow magically over time I was supposed to stop having thoughts. What nonsense haha.</p>
+<p>Here's what I did find though.</p>
+<p>My awareness in the moment greatly increased.</p>
+<p>Instead of stimulus leading directly to emotions or overthinking, I had a gap in between these things, where I could actually think about how I could deal with what was to come.</p>
+<blockquote>
+<p>Stimulus / Primary Emotion -&gt; Magical Pause -&gt; Consider how to proceed -&gt; secondary emotion / overthinking / or something else of your choice :)</p>
+</blockquote>
+<p>This leads to a great simplicity in life. No longer was I distraught by small inconveniences. And the way I looked at every thought and emotion of mine changed. It was no longer this immovable uncontrollable force. It's something that could be analyzed. Understood. Deciphered down to its root cause. And optionally, something I could detach myself from.</p>
+<p>More recently it's freed me from my phone addiction :P</p>
+<h2><a class="header" href="#what-is-meditation-" id="what-is-meditation-">What is meditation ?</a></h2>
+<p>So obviously I talked a lot about the beliefs I had going in. Take a moment to drop everything you know about meditation. Approach it with a little beginners mind :)</p>
+<p>All meditation is. Is seated awareness.</p>
+<p>So you sit.
+And focus on your breath (or maybe something else).
+Eventually you will think of something.
+Then maybe at some point you realize you're thinking.
+Then simply acknowledge the thought.
+And guide yourself back to your breath.
+And then it'll happen over and over haha.
+And this is the practice.</p>
+<p>You're practicing awareness.
+You're not in control of when the thoughts come up.
+You're not in control of when you realize you're thinking.
+But when you have a glimpse of thinking, you can acknowledge your thought and return.</p>
+<p>And eventually this shall become a natural process.
+Your mind will realize it's in the process of thought.
+And you will be more aware of it.</p>
+<p>There is no time frame. There is no way to control how this happens.
+The elements of the practice shall simply become part of life :)</p>
+<h2><a class="header" href="#getting-started-meditating" id="getting-started-meditating">Getting started meditating</a></h2>
+<p>How does one get started with meditation ? It's super simple</p>
+<p>All you really need is a comfy place to sit.
+If you're really invested you could get a meditation bench or Zafu/Zabuton combo.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Meditationsbank.jpg/512px-Meditationsbank.jpg" alt="Image of Meditation Bench" /></p>
+<p>But that's a bit extra haha.</p>
+<p>So. At this point you have a couple options.</p>
+<p>Obviously you could go with a guided meditation. Which is super fun and leads you through the steps.
+And I'm sure there's hundreds of options actually. Google can be your friend.
+I do like the apps <a href="https://www.smilingmind.com.au">Smiling Mind</a> and <a href="https://www.headspace.com">Headspace</a>.</p>
+<p>Here's my simple meditation:</p>
+<ol>
+<li>Sit upright where comfortable.</li>
+<li>Rest your eyes gently on the floor in front of you.</li>
+<li>Simply focus on your breath.</li>
+<li>And just count with every inhale.</li>
+<li>When you reach ten, count back to one, and repeat.</li>
+<li>You will eventually find a thought.</li>
+<li>When you realize you're thinking, acknowledge the thought.</li>
+<li>Then return your focus to your breath, and start counting from 1 again.</li>
+</ol>
+<p>Very simple. Enjoy :)</p>
+<h1><a class="header" href="#journaling" id="journaling">Journaling</a></h1>
+<h2><a class="header" href="#why-journal-" id="why-journal-">Why journal ?</a></h2>
+<p>I first started journaling after reading some random internet articles.
+I was told it would be good for productivity and self reflection.
+Did this happen? Not entirely haha.</p>
+<p>But it did serve as good for balance. Eventually I started using journaling as a way to balance out my life. Everytime I felt anything out of usual, like stress, sadness, or happiness beyond the usual bounds, I would record it in my journal. This way I could always note the way I'm thinking.</p>
+<p>What I've found is that writing forces me to think through my thoughts. To actually concretetize what I'm feeling.
+By working with my thoughts and feelings as words, I felt like I also gain a sense of power over them.
+This also gives me an easier way to identify the root causes to my feelings, and analyze trends and cycles of thoughts and emotions over time.</p>
+<p>By understanding these ideas better, I'm better able to prepare for the future and modify my mindset towards life :)</p>
+<h2><a class="header" href="#ideas-for-journaling" id="ideas-for-journaling">Ideas for journaling</a></h2>
+<p>These are all things I have noted in my journal:</p>
+<ul>
+<li>5 things I appreciate</li>
+<li>Positive impacts I've had</li>
+<li>How I'm feeling in the moment</li>
+<li>Things I was looking forward to tomorrow</li>
+<li>New goals for myself</li>
+<li>Going with the flow of writing :)</li>
+</ul>
+<h1><a class="header" href="#digital-workspace" id="digital-workspace">Digital Workspace</a></h1>
+<p>This section talks about the number of different nuances behind my &quot;digital workspace&quot;.
+I'm classifying my digital workspace as everything I need to be productive in a digital environment.
+Currently I'm thinking this will include:</p>
+<ul>
+<li>Applications</li>
+<li>Configurations</li>
+<li>Accounts</li>
+<li>Services / Subscriptions</li>
+</ul>
+<h1><a class="header" href="#terminal-configuration" id="terminal-configuration">Terminal Configuration</a></h1>
+<p>This is one of the most important components of my life. I spend like 90% of my time in the terminal, so getting this setup is very important.</p>
+<p>Disclaimer my full set of dotfiles can be found at <a href="https://github.com/KritR/dotfiles">github.com/KritR/dotfiles</a>.</p>
+<h2><a class="header" href="#unix-configuration" id="unix-configuration">Unix Configuration</a></h2>
+<h3><a class="header" href="#terminal-emulator" id="terminal-emulator">Terminal Emulator</a></h3>
+<p>For our terminal on a Unix system, we adopt <a href="https://github.com/kovidgoyal/kitty">Kitty</a> or <a href="https://github.com/alacritty/alacritty">Alacritty</a>.
+These are both high performance GPU accelerated terminal emulators with a boatload of features. And they work cross platform.</p>
+<p>Current choice is Kitty on OS X because you can get rid of the window borders and it has a higher degree of customization. We can also render PDF's in the terminal :)</p>
+<p>The theme we use with the terminal is <a href="https://cocopon.github.io/iceberg.vim/">Iceberg</a>, a nice plain dark blue theme which is relatively visually appealing.</p>
+<p>The font we use is a version of Hack customized for my needs.</p>
+<h3><a class="header" href="#shell" id="shell">Shell</a></h3>
+<p>For our shell of choice we use Zsh with <a href="https://github.com/ohmyzsh/ohmyzsh">OhMyZsh</a></p>
+<h4><a class="header" href="#shell-plugins" id="shell-plugins">Shell Plugins</a></h4>
+<p>The current list of plugins is relatively large and will be constantly up to date in the config files stored on Github.</p>
+<p>The primary ones to keep note of are the following:</p>
+<ul>
+<li>
+<p><a href="https://github.com/agkozak/zsh-z">zsh-z</a>
+which offers immediate jumping to recent directories without full path names.</p>
+</li>
+<li>
+<p><a href="https://github.com/mfaerevaag/wd">wd</a>
+which allows you to set bookmarks to directories with like short names</p>
+</li>
+<li>
+<p><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a>
+which automatically suggests full commands. very useful if you're following a similar workflow over and over or needed to search for a command.</p>
+</li>
+<li>
+<p><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a>
+which automatically highlights different parts of commands. just kinda nice :)</p>
+</li>
+</ul>
+<h2><a class="header" href="#windows-configuration" id="windows-configuration">Windows Configuration</a></h2>
+<h3><a class="header" href="#terminal-emulator-1" id="terminal-emulator-1">Terminal Emulator</a></h3>
+<p>Currently <a href="https://github.com/microsoft/terminal">Windows Terminal</a> is well suited for our needs. It supports tabs, and the fluent design, and is relatively performant. It's also agnostic to backends and supports WSL natively.</p>
+<h3><a class="header" href="#shell-1" id="shell-1">Shell</a></h3>
+<p>We use the open source <a href="https://github.com/PowerShell/Powershell">PSCore</a> for all our windows shell operation needs. This way it's compatible with other OS's if need be.</p>
+<h3><a class="header" href="#shell-plugins-1" id="shell-plugins-1">Shell Plugins</a></h3>
+<p>We use <a href="https://github.com/vincpa/z">Z for Powershell</a> and that's about it for the moment.</p>
+<h1><a class="header" href="#terminal-tools" id="terminal-tools">Terminal Tools</a></h1>
+<p>I use a lot of utilities within my terminal for day to day activities.</p>
+<p>Using this quick script, I figured out what my most used commands were.</p>
+<p><code>cat ~/.zsh_history | cut -d&quot;;&quot; -f2 | cut -d&quot; &quot; -f1 | sort | uniq -c | sort -r | head</code></p>
+<p>and yeah I don't know how to use awk :(</p>
+<p>So here they are</p>
+<hr />
+<p>1901 ls
+1002 vim
+807 cd
+675 git
+276 exit
+229 ssh
+167 python
+144 docker-compose
+117 docker
+77 taskell</p>
+<hr />
+<h2><a class="header" href="#vim-text-editing" id="vim-text-editing">Vim (Text Editing)</a></h2>
+<p>I use vim for text editing. My vimrc can be found alongside my dotfiles.
+A number of helpful plugins I've found for text editing include.</p>
+<ul>
+<li>Ale (syntax highlighting)</li>
+<li>Vim Surround (editing surrounding elements)</li>
+<li>Emmet (html zen)</li>
+<li>Coc.vim (language server protocol)</li>
+<li>Ctrl-P (fuzzy finding files)</li>
+<li>MuComplete (0 dependency tab completion)</li>
+</ul>
+<h2><a class="header" href="#taskell-todo-list" id="taskell-todo-list">Taskell (Todo List)</a></h2>
+<p>I use taskell as my daily todo driver.
+It has full vim bindings and saves to standard markdown files.
+Essentially all I could ask for out of a todo list.</p>
+<h2><a class="header" href="#bat-cat-replacement" id="bat-cat-replacement">Bat (cat replacement)</a></h2>
+<p>This is basically a cat replacement except it has fancy syntax highlighting, and line numbering, and everything else. It even has a --plain option to render as standard text.</p>
+<h2><a class="header" href="#ripgrep-fast-file-search" id="ripgrep-fast-file-search">Ripgrep (fast file search)</a></h2>
+<p>Back when I was compiling the linux kernel, and making small modifications, I could quickly search the entire repo in seconds using ripgrep. It's burntsushi's handcoded optimized rust utility which allows for insanely fast searches. It's actually rather impressive.</p>
+<h2><a class="header" href="#docker-container-everything" id="docker-container-everything">Docker (container everything)</a></h2>
+<p>Containerizing all my apps is a development philosophy and necessity. I can't develop in this polyglot world without having some way of uniformly maintaining a development environment and everything. This way I can easily share my projects, deploy them (look into export DOCKER_HOST), and work on teams without losing a step. It also makes it very clear how my applicaiton is structured.</p>
+<h2><a class="header" href="#tldr-easier-manpages" id="tldr-easier-manpages">TLDR (easier manpages)</a></h2>
+<p>When I don't know how to use a command, the TLDR command comes in super handy, and brings up a bunch of examples. It's the only reason I was able to write the bash script at the beginning of this page.</p>
+<h1><a class="header" href="#applications-and-services" id="applications-and-services">Applications and Services</a></h1>
+<h2><a class="header" href="#os-x" id="os-x">OS X</a></h2>
+<ul>
+<li>
+<p>Browsers</p>
+<ul>
+<li>
+<p>Safari Primary</p>
+</li>
+<li>
+<p>Firefox Secondary</p>
+</li>
+<li>
+<p>Extensions</p>
+<ul>
+<li>UBlock Origin</li>
+<li>Dark Mode</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>ChunkWM / Skhd</p>
+</li>
+<li>
+<p>Dropbox</p>
+</li>
+<li>
+<p>Dozer</p>
+</li>
+<li>
+<p>Theine</p>
+</li>
+<li>
+<p>Affinity Designer</p>
+</li>
+<li>
+<p>Affinity Photo</p>
+</li>
+<li>
+<p>Motion</p>
+</li>
+<li>
+<p>Insomnia</p>
+</li>
+<li>
+<p>Calendar</p>
+</li>
+<li>
+<p>Mail</p>
+</li>
+</ul>
+<h2><a class="header" href="#windows" id="windows">Windows</a></h2>
+<ul>
+<li>PowerToys</li>
+</ul>
+<h2><a class="header" href="#linux" id="linux">Linux</a></h2>
+<ul>
+<li>i3WM</li>
+</ul>
+<h2><a class="header" href="#ios" id="ios">iOS</a></h2>
+<ul>
+<li>1.1.1.1</li>
+<li>Dropbox</li>
+<li>Authy</li>
+<li>Pocket</li>
+<li>Messaging Apps
+<ul>
+<li>FB Messenger</li>
+<li>Signal</li>
+<li>Whatsapp</li>
+</ul>
+</li>
+<li>Travel
+<ul>
+<li>Uber</li>
+<li>Lyft</li>
+<li>Airbnb</li>
+</ul>
+</li>
+<li>Grubhub</li>
+</ul>
+<h2><a class="header" href="#web" id="web">Web</a></h2>
+<ul>
+<li>Notion.so</li>
+<li>Github</li>
+<li>Spotify</li>
+<li>News Sources (check reading sources)</li>
+<li>Pocket</li>
+</ul>
+<h2><a class="header" href="#subscriptions" id="subscriptions">Subscriptions</a></h2>
+<ul>
+<li>Dropbox</li>
+<li>Apple News</li>
+<li>Warp VPN</li>
+</ul>
+<h1><a class="header" href="#career" id="career">Career</a></h1>
+<p>A lot of people have asked me questions about interviewing and resumes, and over the course of time, I believe I've become qualified to answer some of these questions. This section pertains to my recommendations and the different ways I think about my career.</p>
+<h1><a class="header" href="#resumes-and-narratives" id="resumes-and-narratives">Resume's and Narratives</a></h1>
+<p>Before you can event start thinking about jobs and interviewing. We need to work on some you content.</p>
+<h2><a class="header" href="#create-a-resume" id="create-a-resume">Create a Resume</a></h2>
+<p>Obviously this is one of the more important things. Considering that it is another section in this book. However nothing can really happen without having one.</p>
+<p>Also theoretically there's a lot to say about resume's. But I'll try and cover the non cliche bits.</p>
+<p>Here is the high level summary of sections.</p>
+<ul>
+<li>Personal Information
+<ul>
+<li>Name</li>
+<li>Email</li>
+<li>Phone Number</li>
+<li>Maybe linkedin or personal website</li>
+</ul>
+</li>
+<li>Profile / Objective (optional)</li>
+<li>Education</li>
+<li>Skills (optional)</li>
+<li>Experience</li>
+<li>Activities</li>
+</ul>
+<p>Now . A lot of these sections are fairly self explanatory.</p>
+<p>I'm linking a copy of my resume <a href="https://rawcdn.githack.com/KritR/resume.html/dd8b7a43920dced4e0f61aba01564aeac37f95b5/resume.html">here</a>.</p>
+<p>Just looking at that you can get a brief summary of each section.</p>
+<p>Now here's the non cliche stuff. How do you go about writing a resume?</p>
+<p>First summarize everything you've done. Like ever. Bullet points, journal, whatever format you want.
+Then you have to make everything fit into one line bullet points. The key is to make each of these sound interesting while still being concise.</p>
+<p>Now say this:
+<em>I am the coolest person alive</em></p>
+<p>The biggest problem I've seen in people's resume's is that I can tell the person who wrote it doesn't think their work is cool. Surprise, most things are cool to someone who doesn't know what you do!</p>
+<p>You just have to find an exciting way to word it. If you don't feel comfortable with this off the bat, tell a friend about what you do. And ask them how you could word it. Other people won't take what you do for granted as easily as you do.</p>
+<p>Some of you are too cool and use thesaurus. Don't do that, focus on the important points, keep things concise, because humans are reading resume's and can see through bullshit.</p>
+<p>The format of most of the things you would list out on a resume is a bullet point format which constrains you a good amount. But always focus on highlighting these things:</p>
+<ul>
+<li>
+<p>Impact !</p>
+<p>Showing that you're valuable can be showing what results your work has had. Like reducing costs for a company by $10k, or helping acquire more customers.</p>
+</li>
+<li>
+<p>Technical skills</p>
+<p>Rather than a boring list of your technical skills, which isn't always believable, make sure you mention these things with the activities and experiences you've had.</p>
+</li>
+<li>
+<p>Action</p>
+<p>All of your resume should be about things you've done. Don't describe yourself. Show who you are via your actions and achievements. It's the common trope in narration as well, &quot;show not tell&quot;. And don't ever say I am a leader, it's so much more effective to point out how and when you've lead people.</p>
+</li>
+</ul>
+<h2><a class="header" href="#crafting-a-narrative" id="crafting-a-narrative">Crafting a Narrative</a></h2>
+<p>Now remember everything I said about being cool. Well stay that way cause there's more work for you.
+You're going to need two more mini speech esque items.</p>
+<p>Remember, the most important part of securing careers is obviously being able to discuss who you are and be able to show others how you're valuable to them. For most people, myself included, this isn't entirely natural. This is something you're going to have to work at, because it's not just talking. It's about crafting a narrative around yourself.</p>
+<p>The first is the 1 minute intro. You'll use this when pitching yourself at the beginning of the interview. And if anyone wants to ask who you are, this is an easy way to go about doing this. It doesn't have too much detail, just enough to tease.</p>
+<p>Here's how mine goes.</p>
+<blockquote>
+<p>Hi. My name is Krithik Rao. I'm a student at Purdue University studying Computer Science. Currently I'm pursuing a concentration in Machine Learning and will be graduating this December. This past semester I interned at Microsoft over the summer working on systems programming for the Windows Kernel team . I'm also president of the AI club at Purdue and have been helping lead that, presenting workshops, and actually got to deploy a production neural network for detecting defects in assembly lines. I'm currently looking for a role this summer as an intern working on machine learning and I'd love to hear about some of the opportunities available at company X.</p>
+</blockquote>
+<p>As you can see, we break it down with the first sentence talking about my education, and then I give a brief overview of some of my latest relevant experiences and activites. Here's the deal, you may not have some of those things yet. There's plenty of other things to talk about. Obviously you can throw in your involvement in other things, or talk a little bit about your passion for your major so you can show that you're a candidate who's likely to excel at any role.</p>
+<p>You're also going to need a 3-5 minute intro. This is for when you're actually talking to a recruiter at a career fair. In this one, sell yourself hard. This is about making an impact. The high level summary isn't enough. Say how you made an impact for people, talk about the skills you have, basically expand more into the parts of your life story you worked really hard at, and can passionately talk about.</p>
+<p>Remember, the key is making this a story. You're just getting to meet someone. Show some character, show your passion, you're writing the story that defines who you are in the recruiters eyes.</p>
+<h1><a class="header" href="#job-hunting" id="job-hunting">Job Hunting</a></h1>
+<p>Now that you've taken care of your end of things, you can ask the world for some money.</p>
+<h2><a class="header" href="#determining-your-ideal-position" id="determining-your-ideal-position">Determining your ideal position</a></h2>
+<p>This is ultimately one of the most important things to career satisfaction.
+Here are a few questions that could help.</p>
+<ul>
+<li>What defines a meaningful career?
+<ul>
+<li>Does the work you do need to have a greater impact ?</li>
+</ul>
+</li>
+<li>What magnitude of compensation is required to keep you around ?</li>
+<li>What sort of team are you looking for?</li>
+<li>Is this a highly social environment or one where you're more left to your own devices?</li>
+<li>What sort of time and mental commitment are you comfortable putting in?</li>
+<li>How long do you plan on staying in a role ?</li>
+<li>What sort of growth opportunities should this career provide, both laterally (same role different areas) and vertically (promotions and different roles) ?</li>
+</ul>
+<h2><a class="header" href="#determining-avenues-to-seek-jobs" id="determining-avenues-to-seek-jobs">Determining avenues to seek jobs</a></h2>
+<ul>
+<li>College Campus Events</li>
+<li>Career Fairs</li>
+<li>Online Job Boards</li>
+<li>LinkedIn</li>
+<li>Recruiter Connections</li>
+<li>Friends and Acquaintances</li>
+</ul>
+<h2><a class="header" href="#narrowing-down-target-roles" id="narrowing-down-target-roles">Narrowing Down Target Roles</a></h2>
+<p>Once you've scoured the internet a little bit, or before a big career event. Make sure you make lists of the roles and companies you're interested in. Talking to every company in the room or applying to every application probably isn't worth the time.</p>
+<p>A lot of times, career fairs especially don't give you a lot of time to work. Long lines, talking to people for long durations, spending hours on initial applications and unnecessary quizzes people send out is the norm. As such, only shoot for what you need, don't waste your time that could probably be better spent in other ways.</p>
+<h2><a class="header" href="#talking-to-recruiters" id="talking-to-recruiters">Talking to Recruiters</a></h2>
+<h3><a class="header" href="#at-a-fair" id="at-a-fair">At a fair</a></h3>
+<p>Before you even talking to a recruiter, be prepared with a little bit of information about a company. This generally happens at company events or career fairs so I assume you know in advance who you'll be talking to. Do some research, figure out where you could potentially be of help, check out their roles online.</p>
+<p>Once you're there, you're gonna have to pull out the social guns. All smiles from here. Feel confident, have a resume ready to hand, and a hand ready to shake.
+Generally at this point, depending on how you're feeling, you start off with the 1 minute speech, and if you have a chance, slowly start to elaborate on some of the 3-5 minute options. This is to paint a good picture of who you are, and the recruiter will be given a moment to get a head start on reading your resume.</p>
+<p>After that point it's a normal conversation, take it how it goes, have some fun, the recruiters a person after all, and they probably won't bite. I landed an interview once because the recruiter just wanted to complain about the company and I was there to empathize. It's an interesting world out there, so don't forget, you're talking to fellow humans.</p>
+<h3><a class="header" href="#at-an-interview" id="at-an-interview">At an interview</a></h3>
+<p>At this point you've already passed the initial scanning. So now you're conversation will start a bit differently.</p>
+<p>This time the interviewer will more or less guide you through the conversation. They'll first start with &quot;tell me a little bit about yourself&quot;, and because you're more relaxed for time during these sessions, you can break into the 3 minute intro.</p>
+<p>After this point, the recruiter for the most part will probably ask you some behavioral questions. Eventually I'll link to a document of questions here.
+For now all you need to note, is that these questions are meant to discover who you are, and allow you to tell your story. Your goal is to craft a narrative throughout this conversation that accurately portrays you.</p>
+<p>Remember, answer every question with an experience. Tie in your wisdom. And don't speak in hypotheticals.</p>
+<p>Here's a great little structure to keep in mind for these kinds of answers.</p>
+<ol>
+<li>Context and background</li>
+</ol>
+<p>(My team at company X five years ago working on X project)</p>
+<ol start="2">
+<li>The tie in to the question</li>
+</ol>
+<p>(We struggled a lot with Y)</p>
+<ol start="3">
+<li>Looking back how you felt about the experience</li>
+</ol>
+<p>(It was rewarding to learn about Z)</p>
+<ol start="4">
+<li>What you would've done differently or how you're changing things or making them better in the present</li>
+</ol>
+<p>(I could've asked for help sooner, and I have been trying to do with that with project W)</p>
+<p>Obviously 4 may only apply to some questions. But make it fun, make it interesting, and have a good time with it.</p>
+<h1><a class="header" href="#mentorship" id="mentorship">Mentorship</a></h1>
+<p>Finding mentors in your work and regular life is super important.</p>
+<p>Recently I had the pleasure of being in a coffee chat with the Director of my division at #Microsoft. He gave a great breakdown of how to seek mentorship in your career, so I thought I’d summarize and share.
+There’s two types of mentors you should be looking out for, technical mentors and career mentors.</p>
+<p>First there’s technical mentors.
+When it comes to technical skills and your work, these are people you can reach out to easily, who answer your questions and entertain your curiosity.
+These are the people that’ll go out of their way to make sure you’re not only learning, but make you feel like you’re involved in what’s going on.</p>
+<p>You also have you career mentors.
+These are the people you can be open with about everything going right and wrong in life. You can share how you feel, how you like your job or team, and what could possibly improve.
+And they listen, give great advice, and help you figure out where you want to be and how to get there.</p>
+<p>At the end of the day, finding good mentors is about finding others who inspire you, get you connected, and push you to become your best self.</p>
+<h1><a class="header" href="#computer-science" id="computer-science">Computer Science</a></h1>
+<p>If you know me you know I'm very into computer science.
+This is a brief set of resources related to my CS adventure.
+Obviously there's a ton more, but there's only so much you can cover in a day right :) ?</p>
+<h1><a class="header" href="#cs-resources" id="cs-resources">CS Resources</a></h1>
+<h1><a class="header" href="#random-collection" id="random-collection">Random Collection</a></h1>
+<ul>
+<li><a href="https://github.com/ossu/computer-science/blob/master/README.md">OSSU Curriculum</a></li>
+<li><a href="https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&amp;cmp=em-data-na-na-newsltr_20171213&amp;slide=id.g183f28bdc3_0_90">Random Intro to ML</a></li>
+<li><a href="http://mbmlbook.com">Model Based ML Book</a></li>
+<li><a href="http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf">How to Read A Paper</a></li>
+<li><a href="https://news.ycombinator.com/item?id=16838460">HN Favorite Talks</a></li>
+<li><a href="https://arxiv.org">CS Papers Arxiv</a></li>
+<li>Accessibility
+<ul>
+<li><a href="https://webaim.org">webaim</a></li>
+<li><a href="https://a11yproject.com">A11y</a></li>
+</ul>
+</li>
+<li><a href="https://learn.dvorak.nl">Learning Dvorak</a></li>
+<li><a href="https://www.gdcvault.com">GDC Vault</a></li>
+<li><a href="https://wiki.osdev.org">OS Dev</a></li>
+<li><a href="https://www.destroyallsoftware.com/talks/">Destroy all Software Talks</a></li>
+<li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/">Intro to AI</a></li>
+<li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/">Intro to Algos</a></li>
+<li><a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown Neural Networks</a></li>
+</ul>
+<h1><a class="header" href="#productive-code" id="productive-code">Productive Code</a></h1>
+<p>Stolen from <a href="https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414">here</a>.
+I just don't want to lose these so I've made this the archive.</p>
+<h2><a class="header" href="#time" id="time">Time</a></h2>
+<ul>
+<li>Slicing. Take a big project, cut it into thin slices, and rearrange the slices to suit your context. I can always slice projects finer and I can always find new permutations of the slices that meet different needs.</li>
+<li>One thing at a time. We’re so focused on efficiency that we reduce the number of feedback cycles in an attempt to reduce overhead. This leads to difficult debugging situations whose expected cost is greater than the cycle overhead we avoided.</li>
+<li>Make it run, make it right, make it fast. (Example of One Thing at a Time, Slicing, and Easy Changes)</li>
+<li>Easy changes. When faced with a hard change, first make it easy (warning, this may be hard), then make the easy change. (e.g. slicing, one thing at a time, concentration, isolation). Example of slicing.</li>
+<li>Concentration. If you need to change several elements, first rearrange the code so the change only needs to happen in one element.</li>
+<li>Isolation. If you only need to change a part of an element, extract that part so the whole subelement changes.</li>
+<li>Baseline Measurement. Start projects by measuring the current state of the world. This goes against our engineering instincts to start fixing things, but when you measure the baseline you will actually know whether you are fixing things.</li>
+</ul>
+<h2><a class="header" href="#learning" id="learning">Learning</a></h2>
+<ul>
+<li>Call your shot. Before you run code, predict out loud exactly what will happen.</li>
+<li>Concrete hypotheses. When the program is misbehaving, articulate exactly what you think is wrong before making a change. If you have two or more hypotheses, find a differential diagnosis.</li>
+<li>Remove extraneous detail. When reporting a bug, find the shortest repro steps. When isolating a bug, find the shortest test case. When using a new API, start from the most basic example. “All that stuff can’t possibly matter,” is an expensive assumption when it’s wrong.
+<ul>
+<li>E.g. see a bug on mobile, reproduce it with curl</li>
+</ul>
+</li>
+<li>Multiple scales. Move between scales freely. Maybe this is a design problem, not a testing problem. Maybe it is a people problem, not a technology problem [cheating, this is always true].</li>
+</ul>
+<h2><a class="header" href="#transcend-logic" id="transcend-logic">Transcend Logic</a></h2>
+<ul>
+<li>Symmetry. Things that are almost the same can be divided into parts that are identical and parts that are clearly different.</li>
+<li>Aesthetics. Beauty is a powerful gradient to climb. It is also a liberating gradient to flout (e.g. inlining a bunch of functions into one giant mess).</li>
+<li>Rhythm. Waiting until the right moment preserves energy and avoids clutter. Act with intensity when the time comes to act.</li>
+<li>Tradeoffs. All decisions are subject to tradeoffs. It’s more important to know what the decision depends on than it is to know which answer to pick today (or which answer you picked yesterday).</li>
+</ul>
+<h2><a class="header" href="#risk" id="risk">Risk</a></h2>
+<ul>
+<li>Fun list. When tangential ideas come, note them and get back to work quickly. Revisit this list when you’ve reached a stopping spot.</li>
+<li>Feed Ideas. Ideas are like frightened little birds. If you scare them away they will stop coming around. When you have an idea, feed it a little. Invalidate it as quickly as you can, but from data not from a lack of self-esteem.</li>
+<li>80/15/5. Spend 80% of your time on low-risk/reasonable-payoff work. Spend 15% of your time on related high-risk/high-payoff work. Spend 5% of your time on things that tickle you, regardless of payoff. Teach the next generation to do your 80% job. By the time someone is ready to take over, one of your 15% experiments (or, less frequently, one of your 5% experiments) will have paid off and will become your new 80%. Repeat.</li>
+</ul>
+<h1><a class="header" href="#inspiration" id="inspiration">Inspiration</a></h1>
+<p>These are a collection of words that have inspired me over the course of time.
+None of them are particularly original, just a personal collection :)</p>
+<p>Everything from a banal internet comment to more profound answers.</p>
+<blockquote>
+<p>“Have you ever tended a garden? practical garden experience makes the answer pretty clear. You don't get angry at the rose bush for not having the roses you desired. You fix the problem, or get rid of the rose bush, or just let it be”</p>
+<ul>
+<li>HN Comment</li>
+</ul>
+</blockquote>
+<h1><a class="header" href="#happiness" id="happiness">Happiness</a></h1>
+<p>This is a collection of items I figured would be classified under happiness ?</p>
+<blockquote>
+<p>“When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ‘happy’. They told me I didn't understand the assignment, and I told them they didn't understand life.”
+― John Lennon</p>
+</blockquote>
+<h2><a class="header" href="#positivity" id="positivity">Positivity</a></h2>
+<p>This one isn't less so about happiness but more so about being positive and focusing on making others around you happy.</p>
+<p><a href="http://qr.ae/8zWeOj">Quora Answer on Positivity - Jay B</a></p>
+<h2><a class="header" href="#success" id="success">Success</a></h2>
+<blockquote>
+<p>“Success is liking yourself, liking what you do, and liking how you do it.”
+― Maya Angelou</p>
+</blockquote>
+<h1><a class="header" href="#confidence" id="confidence">Confidence</a></h1>
+<p>Found on this medium article: <a href="https://medium.com/@SergeyIRL/confidence-is-not-something-you-have-to-build-129e747655e9">medium article</a></p>
+<blockquote>
+<p>Confidence is not something you have to “build”.
+This is something you always had, you can only lose it. But before we talk about regaining it — what is confidence for you? Do you have an answer?
+A great definition was given by Rosabeth Moss Kanter, a professor at Harvard Business School:
+Confidence is an expectation of a positive outcome.
+This is exactly what confidence is. I would like to add one more word to it, though: “Confidence is an expectation of an emotionally positive outcome”. I’ve seen many people who feel down even when they achieve great results. Likely, you’ve seen them too.
+In the end, it all comes down to your emotional state and your control over it. If you can be sure that the result will be positive for you, you will feel confident. If you can be sure that no matter what kind of result you will get, you will feel good — you will be always confident.</p>
+<p>One of the best ways I know for ensuring this outcome and preventing “emotional hijack” is mindfulness. When you are trained to observe your emotional state on a constant basis, you are less likely to fall into a negative emotional state.
+So what makes you lose it?
+Three things are most common: - You are unable to handle uncertainty. - You have a prevalence of negative experience. - You have insecurities related to the challenge you are facing or a result you are aiming for.</p>
+<p>To handle uncertainty you can evaluate the situation in more details. Write down all the outcomes you feel are possible and see how likely each of them is and what kind of consequences they would bring for you. Often it is not as bad as your emotions are telling you.
+Negative experience is easy to handle too. Thanks to our brain quirk, we tend to remember the strongest and the last experience. So to make sure your experience is adding to your confidence — always end your new experiences with a positive one.</p>
+<p>Insecurites are slightly more complex — they are built around our learned vulnerabilities, so unless we can face our vulnerabilities, they are not easy to overcome. One of the easiest ways to employ is an attention shift. For example, you can use exercises from CBT or similar approaches to bypass your vulnerabilities. Alternatively good way around them them is question thinking. Last, but not least — you can also overcome your vulnerabilities for good, through self-acceptance.</p>
+</blockquote>
+<h1><a class="header" href="#productivity-hacks" id="productivity-hacks">Productivity Hacks</a></h1>
+<p>I stole some of these from Quora a long time ago.
+I find the 10 second hack to be rather effective</p>
+<h2><a class="header" href="#get-up---10-second-hack" id="get-up---10-second-hack">Get Up - 10 Second Hack</a></h2>
+<p>Anytime you need to get something done. Count down from 10. And on the count of 10 go do it.
+It brings more awareness to the action you're trying to perform and makes you more likely to do it.</p>
+<h2><a class="header" href="#start-doing---2-minute-hack" id="start-doing---2-minute-hack">Start Doing - 2 Minute Hack</a></h2>
+<p>Focus on the first two minutes of work that you're trying to do. This way you aren't eating the whole task at once and you're less likely to procrastination on it.</p>
+<h2><a class="header" href="#avoid-doing---5-minute-hack" id="avoid-doing---5-minute-hack">Avoid Doing - 5 Minute Hack</a></h2>
+<p>If you're tempted by something you're trying to avoid doing whatever it is. Wait 5 minutes. Generally the temptation should subside by then and it brings more awareness to the fact that you can avoid doing said thing.</p>
+<h1><a class="header" href="#digital-volunteering" id="digital-volunteering">Digital Volunteering</a></h1>
+<p>There's a lot of ways to contribute to the global community in relatively simple ways. Many of these are unheard of and I figured I should include this section to make sure people are aware of these programs.</p>
+<ul>
+<li><a href="https://www.zooniverse.org">Zooniverse</a> - Contribute to meaningful datasets and research projects.</li>
+<li><a href="https://www.missingmaps.org">Missing Maps</a> - Help fix the lack of maps in places where we need maps. The red cross uses this to provide valuable aid during disasters.</li>
+<li><a href="https://www.joinallofus.org">All of Us</a> - Sign up to donate your genome for research</li>
+<li><a href="https://foldingathome.org">Folding at Home</a> - Donate compute power to folding proteins and finding cures to new diseases.</li>
+</ul>
+<h1><a class="header" href="#gifting" id="gifting">Gifting</a></h1>
+<h2><a class="header" href="#both" id="both">Both</a></h2>
+<ul>
+<li>Gift card restaraunt / stores</li>
+<li>Cupcakes/macaroons from a nice place</li>
+<li>Chocolate</li>
+<li>Raspberry Pi</li>
+</ul>
+<h2><a class="header" href="#for-men" id="for-men">For Men</a></h2>
+<p>This list isn't as developed but I'll leave this in here</p>
+<ul>
+<li>Cash</li>
+<li>Wallet</li>
+<li>Watch</li>
+<li>Sunglasses</li>
+</ul>
+<h2><a class="header" href="#for-women" id="for-women">For Women</a></h2>
+<p>I've struggled more with this one so there's a list.</p>
+<ul>
+<li>Fuzzy Socks</li>
+<li>Favorite drink</li>
+<li>Face mask</li>
+<li>Accessories / Jewelry</li>
+<li>Make up ( need help with this )</li>
+<li>Picture Collage</li>
+<li>Lush gift sets</li>
+<li>Succulents</li>
+<li>Sephora perfume set</li>
+</ul>
+<h1><a class="header" href="#finances" id="finances">Finances</a></h1>
+<h2><a class="header" href="#books" id="books">Books</a></h2>
+<ul>
+<li>A Random Walk Down Wall Street - Burton G. Malkiel</li>
+<li>The Millionaire Next Door - Thomas J. Stanley</li>
+</ul>
+<h2><a class="header" href="#online-resources" id="online-resources">Online Resources</a></h2>
+<ul>
+<li><a href="https://www.khanacademy.org/economics-finance-domain/core-finance">Khan Academy Finance</a></li>
+<li><a href="https://kevlarlover.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+v15.html">Card Churning Flowchart</a></li>
+<li><a href="https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free">Free Tax Filing</a></li>
+</ul>
+<h1><a class="header" href="#cars" id="cars">Cars</a></h1>
+<p>This is what initially prompted me to create this repo.</p>
+<h2><a class="header" href="#inner-workings-of-a-car" id="inner-workings-of-a-car">Inner workings of a Car</a></h2>
+<p>This playlist outlines quite a few topics.
+Eventually I'll build this out.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLI7lqC4ZBnInJOAwogQJtSq4UQu69Pjj4">1937 GM Youtube Playlist</a></li>
+</ul>
+<h2><a class="header" href="#buying-cars" id="buying-cars">Buying Cars</a></h2>
+<p>4 Things to Pay Attention To</p>
+<p>In order :)</p>
+<ol>
+<li>Trade in</li>
+</ol>
+<p>Don't say you have a trade in right off the bat. This immediately gives sales people a way to quote you a lower overall price. This is a common negotiation tactic to make a higher priced car seem much more reasonable. Nothing wrong with it, it's just you don't want to put yourself at a disadvantage in the beginning.</p>
+<ol start="2">
+<li>Price</li>
+</ol>
+<p>This is where you want to negotiate. If you can negotiate the price, you should be set. This is where people are generally less willing to budge, but you should focus on this point. The absolute value of the car. The down payment and monthly payment are irrelevant ish.</p>
+<ol start="3">
+<li>Down Payment</li>
+</ol>
+<p>You can tweak this as you'd like</p>
+<ol start="4">
+<li>Monthly Payment</li>
+</ol>
+<p>This is where the most money will be made off you. Interest rates quoted by dealerships are high and since the total price is more obfuscated this way, it's harder to get what you want.
+Therefore, bring in your own financing, don't announce it immediately, but make it happen.</p>
+<h2><a class="header" href="#maintenance" id="maintenance">Maintenance</a></h2>
+<p>Found this useful link by a car maintenance manager <a href="https://www.edmunds.com/car-maintenance/confessions-from-the-dealership-service-department.html">here</a>.</p>
+<h1><a class="header" href="#interesting-purchases" id="interesting-purchases">Interesting Purchases</a></h1>
+<p>This is a list of my latest and most interesting purchase considerations.
+If it doesn't have a price or review, it's because I haven't bought it.</p>
+<ul>
+<li>Metal Comb ($7)</li>
+</ul>
+<p>Totally worth. Doesn't get lost. Looks nice. Rings in your hair.</p>
+<ul>
+<li>Weighted Blanket ($50)</li>
+</ul>
+<p>Worth if you care about your sleep. Everyone should get one because it's like a full body cuddle. And everyone needs that.</p>
+<ul>
+<li>Honey Sticks ($?)</li>
+</ul>
+<p>These make really interesting snacking items. They're just novel. I don't even know what else to say about it.</p>
+<ul>
+<li>Bidet ($?)</li>
+</ul>
+<p>You know you need one. C'mon.</p>
+<ul>
+<li>Squatty Potty ($?)</li>
+</ul>
+<p>I'm pretty sure this is literally better for your bathroom experience. Even unicorns use it.</p>
+<ul>
+<li>Cube Printer ($?)</li>
+</ul>
+<p>I'm not sure how I feel about this. But being able to print labels literally anywhere sounds handy.</p>
+<h1><a class="header" href="#buy-it-for-life" id="buy-it-for-life">BUY IT FOR LIFE</a></h1>
+<p>So this is based off of reddit.com/r/BuyItForLife. Totally worth checking out if you haven't already.
+These are products that you could purchase once, and have it last for a lifetime.
+Some of these are lies.</p>
+<p>Here's what’s worth looking @ on this list:</p>
+<ul>
+<li>Cookingware</li>
+<li>Furniture</li>
+<li>Shoes / Boots</li>
+<li>Vacuum</li>
+<li>Sheets</li>
+<li>Cables</li>
+<li>Blanket</li>
+</ul>
+<h2><a class="header" href="#cookingware" id="cookingware">CookingWare</a></h2>
+<ul>
+<li>Le Creuset</li>
+<li>Cast Iron in General</li>
+</ul>
+<h2><a class="header" href="#furniture" id="furniture">Furniture</a></h2>
+<ul>
+<li>Stickleyaudi</li>
+<li>Herman Miller Eames</li>
+<li>Flexsteel</li>
+<li>Natuzi</li>
+<li>Make your own</li>
+</ul>
+<h2><a class="header" href="#razor" id="razor">Razor</a></h2>
+<p>Yep you definitely have to replace these.... I’ve heard you can buy a blade sharpener though</p>
+<h2><a class="header" href="#socks" id="socks">Socks</a></h2>
+<ul>
+<li>Darn Tough Socks $10/Pair</li>
+<li>Kirkland Merino Wool Socks $5/Pair</li>
+</ul>
+<p>Darn tough do come with a lifetime warranty.</p>
+<h2><a class="header" href="#boxers" id="boxers">Boxers</a></h2>
+<ul>
+<li>Duluth Buck Naked $25/pair</li>
+<li>Uniqlo Arism $10/Pair (travel friendly)</li>
+</ul>
+<h2><a class="header" href="#slip-ons" id="slip-ons">Slip Ons</a></h2>
+<ul>
+<li>Chacos</li>
+<li>Birks</li>
+</ul>
+<h2><a class="header" href="#pens" id="pens">Pens</a></h2>
+<ul>
+<li>Pilot Juice Up</li>
+</ul>
+<p>These are my favorite. They don't last a lifetime.</p>
+<h2><a class="header" href="#pencil" id="pencil">Pencil</a></h2>
+<ul>
+<li>Uni Kuru Toga</li>
+</ul>
+<p>There is no winning for this. It's just quality.</p>
+<h2><a class="header" href="#earbuds" id="earbuds">Earbuds</a></h2>
+<ul>
+<li>Sony MDR510</li>
+</ul>
+<p>Probably better to just get airpods at this point.</p>
+<h2><a class="header" href="#vaccuum-worth" id="vaccuum-worth">Vaccuum (worth):</a></h2>
+<ul>
+<li>Miele</li>
+</ul>
+<p>They have a lot of industrial grade equipment. It's interesting.</p>
+<h2><a class="header" href="#sheets" id="sheets">Sheets:</a></h2>
+<ul>
+<li><a href="https://www.reddit.com/r/BuyItForLife/comments/b815ij/bed_sheets/">Linen</a></li>
+</ul>
+<h2><a class="header" href="#cables" id="cables">Cables</a></h2>
+<ul>
+<li>Anker</li>
+</ul>
+<h2><a class="header" href="#blanket" id="blanket">Blanket</a></h2>
+<ul>
+<li>Faribaut Wool Mill</li>
+</ul>
+<p>Personally I like my weighted blanket</p>
+<h2><a class="header" href="#toaster" id="toaster">Toaster</a></h2>
+<ul>
+<li>Dualit</li>
+</ul>
+<p>You could also buy ten cheap toaster for the price of one of these.</p>
+<h2><a class="header" href="#multimeter" id="multimeter">Multimeter</a></h2>
+<ul>
+<li>Fluke</li>
+</ul>
+<h2><a class="header" href="#nail-clippers" id="nail-clippers">Nail Clippers</a></h2>
+<ul>
+<li><a href="https://www.amazon.com/surgical-stainless-clippers-manicure-GERmanikure/dp/B01MDQGQC1">Soligen</a></li>
+</ul>
+<p>I honestly don't know who needs nail clippers made of german steel...</p>
+<h2><a class="header" href="#knives" id="knives">Knives</a></h2>
+<ul>
+<li>Victorinox</li>
+<li>lamson Kitchen</li>
+<li>probably more</li>
+</ul>
+<h2><a class="header" href="#pliers" id="pliers">Pliers:</a></h2>
+<ul>
+<li>Channel Lock</li>
+<li>Knipex</li>
+</ul>
+<h2><a class="header" href="#push-mower" id="push-mower">Push Mower:</a></h2>
+<ul>
+<li>Honda</li>
+</ul>
+<h2><a class="header" href="#jackets" id="jackets">Jackets:</a></h2>
+<ul>
+<li>Patagonia</li>
+<li>Arc’teyrx</li>
+</ul>
+<h2><a class="header" href="#clothes" id="clothes">Clothes</a></h2>
+<ul>
+<li>LL Bean</li>
+<li>Eddie Baeur</li>
+<li>Uniqlo</li>
+</ul>
+<h1><a class="header" href="#reading-sources" id="reading-sources">Reading Sources</a></h1>
+<ul>
+<li>Academic Papers
+<ul>
+<li>https://paperkast.com/</li>
+</ul>
+</li>
+<li>Tech News
+<ul>
+<li>https://hackernews.com</li>
+<li>https://arstechnica.com</li>
+</ul>
+</li>
+<li>Airplanes &amp; Airlines
+<ul>
+<li>http://www.airliners.net/forum/viewforum.php?f=3</li>
+<li>https://www.flyertalk.com/</li>
+</ul>
+</li>
+<li>Investing
+<ul>
+<li>https://www.bogleheads.org</li>
+</ul>
+</li>
+</ul>
+<h1><a class="header" href="#events-to-check-out" id="events-to-check-out">Events to Check Out</a></h1>
+<ul>
+<li><a href="https://defcon.org">Defcon</a></li>
+<li><a href="https://blackhat.com">Blackhat</a></li>
+<li><a href="https://www.thotcon.org">Thotcon</a> (Chicago's Hacking Conf)</li>
+<li><a href="https://www.thestrangeloop.com">Strange Loop</a></li>
+<li>Burning Man</li>
+</ul>
+<h1><a class="header" href="#relationships" id="relationships">Relationships</a></h1>
+<h2><a class="header" href="#notes-on-marriage" id="notes-on-marriage">Notes on Marriage</a></h2>
+<ul>
+<li><a href="https://www.quora.com/What-are-the-dark-secrets-of-being-married/answer/Jon-Davis-10?ch=2&amp;share=7db58394&amp;srid=nKmf">Insightful Quora Answer</a></li>
+</ul>
+<h1><a class="header" href="#interesting-classes" id="interesting-classes">Interesting Classes</a></h1>
+<p>If you share my interests then some of these may be interesting. If not, maybe not haha.</p>
+<ul>
+<li>Orbital Mechanics</li>
+<li>Fluid Dynamics</li>
+<li>Econometrics</li>
+<li>Game Theory</li>
+<li>Orgo Chem</li>
+<li>Bioenergetics</li>
+<li>Molecular Biology : Proteins</li>
+<li>Computational Quantum Chem / Physics</li>
+<li>Nonlinear fracture mechanics</li>
+<li>Numerical Analysis</li>
+<li>Parallel Computing</li>
+<li>Programming Languages</li>
+<li>Cryptography</li>
+<li>Introduction to Robotic Systems</li>
+<li>Partial Differential Equations</li>
+<li>Engineering Remote Sensing</li>
+<li>Signal / Image Processing</li>
+<li>Materials Simulation</li>
+<li>Advanced Combustion</li>
+<li>Graph Theory / Topology</li>
+<li>Nuclear Reactor Analysis</li>
+<li>Time Series Analysis</li>
+<li>Advanced Geometry</li>
+<li><a href="http://underactuated.csail.mit.edu/">Underactuated Robotics</a></li>
+<li>Psychophysics</li>
+<li>Neurophilosophy</li>
+<li>Ag Econ ?</li>
+</ul>
+<h1><a class="header" href="#chemistry" id="chemistry">Chemistry</a></h1>
+<p>These are some links to the AP Chemistry Curriculum by my high school teachers, who I should note did an amazing job.</p>
+<ul>
+<li><a href="https://www.teachnlearnchem.com/index.htm">Teach and Learn Chem</a></li>
+<li><a href="https://www.youtube.com/channel/UCPGg5vfiiO9YcUTxlxizWTw/playlists">John Bergmann AP Chemistry and Physics</a></li>
+</ul>
+<h2><a class="header" href="#polyatomic-ions" id="polyatomic-ions">Polyatomic Ions</a></h2>
+<p>This is a list of the most common polyatomic ions.</p>
+<ul>
+<li>NH4 1+ ammonium</li>
+<li>CN 1- cyanide</li>
+<li>OH 1- hydroxide</li>
+<li>CH3COO 1- acetate</li>
+<li>NO3 1- nitrate</li>
+<li>ClO3 1- chlorate</li>
+<li>BrO3 1- bromate</li>
+<li>IO3 1- iodate</li>
+<li>HCO3 1- bicarbonate</li>
+<li>MnO4 1- permanganate</li>
+<li>CO3 2- carbonate</li>
+<li>SO4 2- sulfate</li>
+<li>CrO4 2- chromate</li>
+<li>Cr2O7 2- dichromate</li>
+<li>PO4 3- phosphate</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
