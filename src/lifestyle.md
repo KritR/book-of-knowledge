@@ -14,4 +14,4 @@ Regardless of the situation I'm in, or what I'm prioritizing. Or who I am. Life 
   - Keeping a Todo List
   - Adding things to my calendar
 
-Keeping these things going will allow me to wake up the next morning, feeling like I can tackle whatever's coming ahead of me. Even if everything gets overboard, stresswise, work wise, relationship wise. I know that at the end of the day, if I maintain these things, with time, my life should go back to normal and I will be healthily functioning.
+Keeping these things going will allow me to wake up the next morning, feeling like I can tackle whatever is coming ahead of me. Even if everything gets overboard, stress wise, work wise, relationship wise. I know that at the end of the day, if I maintain these things, with time, my life should go back to normal and I will be healthily functioning.

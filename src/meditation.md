@@ -8,7 +8,7 @@ My personal journey to meditation started with some misguided assumptions that m
 
 Truth be told. None of these things were what I got. At least from what I can understand.
 
-In fact I occassionally got frustrated because my thoughts were supposed to be going away and that somehow magically over time I was supposed to stop having thoughts. What nonsense haha.
+In fact I occasionally got frustrated because my thoughts were supposed to be going away and that somehow magically over time I was supposed to stop having thoughts. What nonsense haha.
 
 Here's what I did find though.
 

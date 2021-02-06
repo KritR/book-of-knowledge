@@ -31,3 +31,7 @@ You can tweak this as you'd like
 
 This is where the most money will be made off you. Interest rates quoted by dealerships are high and since the total price is more obfuscated this way, it's harder to get what you want.
 Therefore, bring in your own financing, don't announce it immediately, but make it happen.
+
+## Maintenance
+
+Found this useful link by a car maintenance manager [here](https://www.edmunds.com/car-maintenance/confessions-from-the-dealership-service-department.html).

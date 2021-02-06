@@ -1,5 +1,10 @@
 # Chemistry
 
+These are some links to the AP Chemistry Curriculum by my high school teachers, who I should note did an amazing job.
+
+- [Teach and Learn Chem](https://www.teachnlearnchem.com/index.htm)
+- [John Bergmann AP Chemistry and Physics](https://www.youtube.com/channel/UCPGg5vfiiO9YcUTxlxizWTw/playlists)
+
 ## Polyatomic Ions
 
 This is a list of the most common polyatomic ions.
