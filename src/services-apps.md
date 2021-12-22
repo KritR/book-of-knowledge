@@ -53,9 +53,10 @@
 - Spotify
 - News Sources (check reading sources)
 - Pocket
+- Mint
 
 ## Subscriptions
 
 - Dropbox
 - Apple News
-- Warp VPN
+- Next DNS
