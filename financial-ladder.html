@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Financial Ladder - Book of Knowledge</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="lifestyle.html"><strong aria-hidden="true">1.</strong> Lifestyle</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="meditation.html"><strong aria-hidden="true">1.1.</strong> Meditation</a></li><li class="chapter-item expanded "><a href="journaling.html"><strong aria-hidden="true">1.2.</strong> Journaling</a></li></ol></li><li class="chapter-item expanded "><a href="digital-workspace.html"><strong aria-hidden="true">2.</strong> Digital Workspace</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="terminal-config.html"><strong aria-hidden="true">2.1.</strong> Terminal</a></li><li class="chapter-item expanded "><a href="terminal-tools.html"><strong aria-hidden="true">2.2.</strong> Terminal Tools</a></li><li class="chapter-item expanded "><a href="services-apps.html"><strong aria-hidden="true">2.3.</strong> Services and Apps</a></li></ol></li><li class="chapter-item expanded "><a href="career.html"><strong aria-hidden="true">3.</strong> Career</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="resume-narrative.html"><strong aria-hidden="true">3.1.</strong> Resumes &amp; Narratives</a></li><li class="chapter-item expanded "><a href="seeking-work.html"><strong aria-hidden="true">3.2.</strong> Finding Employment</a></li><li class="chapter-item expanded "><a href="mentorship.html"><strong aria-hidden="true">3.3.</strong> Mentorship</a></li></ol></li><li class="chapter-item expanded "><a href="cs.html"><strong aria-hidden="true">4.</strong> Computer Science</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="cs-resources.html"><strong aria-hidden="true">4.1.</strong> Learning Resources</a></li><li class="chapter-item expanded "><a href="code-flow.html"><strong aria-hidden="true">4.2.</strong> Coding Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="inspiration.html"><strong aria-hidden="true">5.</strong> Inspiration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="happiness.html"><strong aria-hidden="true">5.1.</strong> Happiness</a></li><li class="chapter-item expanded "><a href="confidence.html"><strong aria-hidden="true">5.2.</strong> Confidence</a></li><li class="chapter-item expanded "><a href="productivity-hack.html"><strong aria-hidden="true">5.3.</strong> Productivity</a></li></ol></li><li class="chapter-item expanded "><a href="digital-volunteering.html"><strong aria-hidden="true">6.</strong> Digital Volunteering</a></li><li class="chapter-item expanded "><a href="gifting.html"><strong aria-hidden="true">7.</strong> Gifting</a></li><li class="chapter-item expanded "><a href="finances.html"><strong aria-hidden="true">8.</strong> Finance</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="financial-ladder.html" class="active"><strong aria-hidden="true">8.1.</strong> Financial Ladder</a></li></ol></li><li class="chapter-item expanded "><a href="cars.html"><strong aria-hidden="true">9.</strong> Cars</a></li><li class="chapter-item expanded "><a href="interesting-purchases.html"><strong aria-hidden="true">10.</strong> Purchases</a></li><li class="chapter-item expanded "><a href="buy-for-life.html"><strong aria-hidden="true">11.</strong> Buy It For Life</a></li><li class="chapter-item expanded "><a href="reading-sources.html"><strong aria-hidden="true">12.</strong> Reading Sources</a></li><li class="chapter-item expanded "><a href="events.html"><strong aria-hidden="true">13.</strong> Events</a></li><li class="chapter-item expanded "><a href="relationships.html"><strong aria-hidden="true">14.</strong> Relationships</a></li><li class="chapter-item expanded "><a href="interesting-classes.html"><strong aria-hidden="true">15.</strong> Interesting Classes</a></li><li class="chapter-item expanded "><a href="chemistry.html"><strong aria-hidden="true">16.</strong> Chemistry</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Book of Knowledge</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-financial-ladder"><a class="header" href="#the-financial-ladder">The Financial Ladder</a></h1>
+<p>Resources to look at as early as possible</p>
+<ul>
+<li>The Millionaire Next Door</li>
+<li>A Random Walk Down Wall St</li>
+<li>Kahn Academy Finance Course</li>
+</ul>
+<p>Are these resources everything, no. But will they give you some understanding of what’s going on, yes.</p>
+<h2 id="16"><a class="header" href="#16">16</a></h2>
+<ul>
+<li>Get added as an authorized user to your parents credit card</li>
+</ul>
+<h2 id="18"><a class="header" href="#18">18</a></h2>
+<ul>
+<li>Open your own bank / investment account
+<ul>
+<li>Personally I like Schwab because of their international ATM refunds</li>
+<li>Fidelity also has a nice 2% credit card</li>
+</ul>
+</li>
+<li>Create a Roth IRA (pretty much one button after creating a bank account)</li>
+<li>Make your own credit card
+<ul>
+<li>Student one if need be</li>
+</ul>
+</li>
+<li>Start a Mint / Copilot account
+<ul>
+<li>Start tracking your spending and create budgets as appropriate</li>
+</ul>
+</li>
+<li>Get an app to track credit cards, like CardPointers (maybe worth/maybe not)</li>
+<li>If you need to fill out taxes, turbotax is free under a certain income, which most student should qualify for</li>
+</ul>
+<p>During internships/jobs, max out your roth ira if you can. Generally you aren't being taxed because you don't make enough, which means this money will go in and grow tax free, without being taxed. Mathematically I'm not sure how this plays out since we do have a progressive tax system, but intuitively it seems like a good deal.
+Add a new credit card every year,
+If your spend is low these cards should be free, and generally prefer ones with more perks
+I recommend starting with a generic 2% cashback card if you can, and then moving up to ones that maximize return on dining / groceries (amex blue cash preferred, etc).</p>
+<h2 id="graduation"><a class="header" href="#graduation">Graduation</a></h2>
+<p>Assuming you get a job of some nature, this is where things really start to diverge and get interesting.
+Each person's life situation will differ.</p>
+<h3 id="credit-cards"><a class="header" href="#credit-cards">Credit Cards</a></h3>
+<p>Right after college you're likely to have a lot of expenses.
+It's at this point that you'll want to look into getting a high reward credit card. For example, when I graduated I got the chase sapphire preferred, which had an offer, where if I spent $4k in the first 3 months, I'd get $1.25k in points back. The card itself had a $99 annual fee, so even if I kept the card for 10 years, I'd still come out positive with some of the other perks it was offering.</p>
+<p>I also increased travel a lot, so it was important for me to get a good travel credit card. In my case that was the Capitol One Venture X card. This card was offering me $400 in travel credits each year, with a $400 annual fee, which was a net 0. On top of that though, it got me access to travel lounges, had a covered collision damage for rental cars, and paid for my TSA global entry.</p>
+<h3 id="investment-accounts"><a class="header" href="#investment-accounts">Investment Accounts</a></h3>
+<p>You'll have your set of investment accounts to choose from at this point. Some from your employer, some that can be self controlled.</p>
+<ul>
+<li>401K (Employer Controlled)</li>
+<li>Traditional IRA (Generally rollover from 401K)</li>
+<li>Roth IRA</li>
+<li>Roth 401K</li>
+<li>HSA (For Health Insurance but Basically an IRA at retirement age)</li>
+</ul>
+<p>How you choose to allocate money to these will depend on your current status.
+I recommend maxing out employer matching on any 401k, contributing to your Roth IRA if you're under the income limit, and so forth. Obviously the choice to contribute to a Roth vs Traditional account may differ based off specific circumstance and current tax bracket.</p>
+<h3 id="priorities"><a class="header" href="#priorities">Priorities</a></h3>
+<p>If your priority is an early retirement.
+Look into Financial Independence Retire Early (FIRE) and methods like the Roth IRA Conversion ladder. There are plenty of resources in this space so I won't go too much into it. However, I will note you'll probably want to max out tax deferred accounts.</p>
+<p>If your priority is buying things, stay pretty liquid. You want to have cash available and don't want to be carrying unnecessary loans.
+Unless it's a house you're buying in which case you have many options.</p>
+<h2 id="first-house-purchase"><a class="header" href="#first-house-purchase">First House Purchase</a></h2>
+<p>This is an interesting one. So the government wants you to buy a house, so you can actually get a subsidized loan in the form of an FHA loan, which could reduce your overall downpayment to a mere 3.5%.
+You also have the option of using money from your Roth account to pay for downpayments. However, this does come at the cost of losing out on those sweet tax deferred gains.
+Luckily, selling your primary residence is also tax exempt to a certain degree, up to $250k if you're single, $500k if you're filing joint. So there are perks in all directions.</p>
+<p>Unfortunately generic advise is harder as an individual ages and you know finds</p>
+<h2 id="childrens-college"><a class="header" href="#childrens-college">Children's College</a></h2>
+<p>Contribute to a 529 if you want to save up for your child's education expenses. Again ! Tax deferred accounts are your friend.
+Investments grow tax free and they can be used on anyone's education, not just your child's. Have fun !</p>
+<pre><code>This page is a work in progress.
+
+- Requirements for each step.
+- Links to Options
+- Flowchart maybe ?
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="finances.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="cars.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="finances.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="cars.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
