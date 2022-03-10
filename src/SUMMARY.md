@@ -21,6 +21,7 @@
 - [Digital Volunteering](./digital-volunteering.md)
 - [Gifting](./gifting.md)
 - [Finance](./finances.md)
+  - [Financial Ladder](./financial-ladder.md)
 - [Cars](./cars.md)
 - [Purchases](./interesting-purchases.md)
 - [Buy It For Life](./buy-for-life.md)
