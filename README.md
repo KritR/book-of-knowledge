@@ -1,6 +1,6 @@
 # Book Of Knowledge
 
-[![Build Status](https://travis-ci.org/KritR/book-of-knowledge.svg?branch=master)](https://travis-ci.org/KritR/book-of-knowledge)
+[![Website Deploy Status](https://github.com/KritR/book-of-knowledge/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/KritR/book-of-knowledge/actions/workflows/gh-pages.yml)
 
 ## What is this ?
 
@@ -9,4 +9,4 @@ This could be useful for my current self, my future self, and for other people.
 
 ## Reading It
 
-Check out [kritr.github.io/book-of-knowledge/](https://kritr.github.io/book-of-knowledge/)
+Check out [https://krithikrao.com/book-of-knowledge/](https://krithikrao.com/book-of-knowledge/)
